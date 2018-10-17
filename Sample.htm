@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<h1>Basic form</h1>
+
+	<form action="Welcome.php" method="post">
+		<fieldset style="color: green">
+		<legend> Email Sign UP:</legend>
+		First Name: <br>
+		<input type="text" name="fname" ><br>
+		Last Name:<br>
+		<input type="text" name="lname"  <br>
+		<br><br>
+
+		Gender: <br>
+		
+		<input type="radio" name="gender" value="male" > Male<br>
+        <input type="radio" name="gender" value="female" > Female<br>
+        <input type="radio" name="gender" value="other" > Other 
+        <br><br>
+        Date of Birth:<br>
+        <input type="date" name="bday"  min="1900-01-01" max="2016-12-31" >
+        <br>
+        Phone:<br>
+        <input type="text" name="number" maxlength="11"  >
+        <br> 
+        E-mail:<br>
+        <input type="email" name="email" >
+        <br>
+        Password: <br>
+        <input type="password" name="psw" > <br>
+        Re-enter password:<br>
+        <input type="password" name="psw" >
+        <br><br>
+        <input type="submit" name="submit" value="Click to submit">
+		</fieldset>
+</body>
+</html>
